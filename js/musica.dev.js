@@ -1,4 +1,3 @@
-var x = document.querySelector("#myAudio")
 var bol = true
 const play_pause = () =>{
   if(bol===true){
@@ -9,6 +8,7 @@ const play_pause = () =>{
     x.pause();
     bol = true
   }
+  console.log("Cocomunch hermosa poblana panista tradicional")
 }
 
   
