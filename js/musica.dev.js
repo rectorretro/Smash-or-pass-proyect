@@ -1,8 +1,9 @@
-var x = document.getElementById("myAudio")
+var x = document.querySelector("#myAudio")
 var bol = true
-function play_pause(){
+const play_pause = () =>{
   if(bol===true){
     x.play();
+    x.loop = true;
     bol = false
   }else{
     x.pause();
