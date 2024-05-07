@@ -8,7 +8,7 @@ const play_pause = () =>{
     x.pause();
     bol = true
   }
-  console.log("Cocomunch hermosa poblana panista tradicional")
+  //console.log("Cocomunch hermosa poblana panista tradicional")
 }
 
   

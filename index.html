@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/desing.css">
     <script src="./js/musica.dev.js"></script>
+    <script src="./js/cambioImagen.dev.js"></script>
     <title>Smash or pass</title>
     
 </head>
@@ -15,7 +16,6 @@
                 <div>
                     <button id="b-musica" type="button">Música</button>
                     <audio id = "myAudio" src="./media/music/evelyn.mp3"></audio>
-                    
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
 
     <div>
         <div class="imagen_selector">
-            <img src="https://pbs.twimg.com/media/F06y5TAWAAYFh-k?format=jpg&name=large" alt="" class="imagen_selector_image">
+            <img src="./media/img/EllaFreya.jpg" alt="" class="imagen_selector_image" id="imagen-mostrada">
             <div>
                 <h1 id="titulo_header">
                     Señorita Ella Freya
@@ -46,8 +46,8 @@
     </div>
     <div class="div-botones">
         <div>
-            <button>Smash</button>
-            <button>Pass</button>                
+            <button id="smash">Smash</button>
+            <button id="pass">Pass</button>                
         </div>
         
         
